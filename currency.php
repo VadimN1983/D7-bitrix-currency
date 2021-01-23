@@ -50,9 +50,9 @@ $result = \Bitrix\Currency\CurrencyTable::add([
         'CURRENT_BASE_RATE' => 3,
         'CREATED_BY' => 1,
         'MODIFIED_BY' => 1,
-        'LANG' => 'ru',
+        'LANG' => 'ru'
     ],
-	'auth_context' => \Bitrix\Main\Authentication\Context::class
+    'auth_context' => \Bitrix\Main\Authentication\Context::class
 ]);
 
 if($result->isSuccess())
