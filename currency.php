@@ -1,3 +1,4 @@
+<?
 \Bitrix\Main\Loader::includeModule('currency');
 
 /**
