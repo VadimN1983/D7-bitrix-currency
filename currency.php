@@ -79,7 +79,7 @@ if($result->isSuccess())
         ],
         'cache' => [
             'ttl' => 3600,
-            'cache_joins' => 'inner'
+            'cache_joins' => true
         ]
     ]
 )->fetchAll();
